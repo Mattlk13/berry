@@ -1,6 +1,6 @@
 diff --git a/lib/tsc.js b/lib/tsc.js
 index 1af7d4794..74d702d96 100644
-semver exclusivity >=5.6.1-rc
+semver exclusivity >=5.6.1-rc <5.7.0-beta
 --- a/lib/tsc.js
 +++ b/lib/tsc.js
 @@ -5064,6 +5064,9 @@ var sys = (() => {
@@ -335,7 +335,7 @@ semver exclusivity >=5.6.1-rc
          break;
 diff --git a/lib/tsserver.js b/lib/tsserver.js
 index f38266561..a38dfeb1c 100644
-semver exclusivity >=5.6.1-rc
+semver exclusivity >=5.6.1-rc <5.7.0-beta
 --- a/lib/tsserver.js
 +++ b/lib/tsserver.js
 @@ -53,6 +53,25 @@ var import_net = __toESM(require("net"));
@@ -388,7 +388,7 @@ semver exclusivity >=5.6.1-rc
        this.installer.on("message", (m) => this.handleMessage(m));
 diff --git a/lib/typescript.d.ts b/lib/typescript.d.ts
 index 963c5732b..1ea17a9bc 100644
-semver exclusivity >=5.6.1-rc
+semver exclusivity >=5.6.1-rc <5.7.0-beta
 --- a/lib/typescript.d.ts
 +++ b/lib/typescript.d.ts
 @@ -3242,6 +3242,7 @@ declare namespace ts {
@@ -418,7 +418,7 @@ semver exclusivity >=5.6.1-rc
      function resolveTripleslashReference(moduleName: string, containingFile: string): string;
 diff --git a/lib/typescript.js b/lib/typescript.js
 index 4dae4289c..842eaf260 100644
-semver exclusivity >=5.6.1-rc
+semver exclusivity >=5.6.1-rc <5.7.0-beta
 --- a/lib/typescript.js
 +++ b/lib/typescript.js
 @@ -8450,6 +8450,9 @@ var sys = (() => {
